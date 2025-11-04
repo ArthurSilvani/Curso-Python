@@ -1,0 +1,10 @@
+a =input('Digite algo: ')
+print('O tipo primitivo desse valor é', type(a))
+print('Só tem espaço? ', a.isspace())
+print('É m número? ', a.isdecimal())
+print('é alfabetico? ', a.isalpha())
+print('É alfanumérico? ', a.isalnum())
+print('Está maiuscula? ', a.isupper())
+print('Está minuscula? ', a.islower())
+print('Esta capitalizada? ', a.istitle())
+

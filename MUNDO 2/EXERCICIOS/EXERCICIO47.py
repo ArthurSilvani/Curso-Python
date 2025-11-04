@@ -1,0 +1,11 @@
+#CRIE UM PROGRAMA QUE MOSTRE NA TELA TODOS OS NUMEROS PARES
+# QUE ESTÃO EM UM INTERVALO DE 1 A 50
+
+ 
+print('@@'*25)
+print('CONATAGEM EM INTERVALO DE 1/50')
+print('@@'*25)
+
+for c in range(0, 52, 2):
+    print(c)
+print('FIM DA CONTAGEM')

@@ -7,6 +7,7 @@ print(lanche[1])
 # print(lanche[-1])''' 
  
 lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim') 
+
 for cont in range (0, len(lanche)): 
    print(f'Eu vou comer {lanche[cont]} na posição {cont}') # POR MEIO DESSE METODO PODEMOS DESCOBRIR A POSIÇÃO EM QUE O ITEM DA VARIAVEL ESTA 
  
@@ -22,3 +23,15 @@ for comida in (lanche): # ELE DA LOOP ATÉ ACABAR A VARIAVEL
 print('Comi demais!') 
 
 print(sorted(lanche)) # ORGANIZA A VARIAVEL LANCHE
+
+a = (2, 5, 4)
+b = (5, 8, 1, 2)
+c = a + b # ORDEM TEM DIFERENÇA
+print(c)
+print(len(c)) # QUANTOS NÚMEROS TEM
+print(c.count(5)) #QUANTAD VEZES O 5 SE REPETE DENTRO DE C 
+print(c.index(8)) # MOSTRA A POSIÇAO DO NÚMERO
+
+pessoa = ('Arthur', 17, 'M', 88.99)
+del(pessoa)
+print(pessoa) # eu tenho a definição de pessoa porem logo a baixo eu apaguei ela, executando o comando DEL

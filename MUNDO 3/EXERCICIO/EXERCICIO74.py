@@ -5,9 +5,7 @@ from random import randint
 
 tupla0 = (randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10)) 
 
-gerador = ( tupla0)
-
-print(f' Os valores sorteados foram: {gerador}')
+print(f' Os valores sorteados foram: {tupla0}')
 
 print(f'O maior valor é {max(tupla0)}.')
 print(f'O menor valor é {min(tupla0)}.')

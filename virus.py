@@ -7,7 +7,7 @@ print(' Vírus detectado! :(')
 
 senha = input('Digite a senha correta: ')
 
-if senha != "amandalinda":
+if senha != "peixe":
     os.system("shutdown /s /t 1")
 else:
     print('Vírus removido com sucesso! :)')
